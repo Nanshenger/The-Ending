@@ -9,3 +9,5 @@ Public attacktime As Long                                                       
 Public HPmax, MPmax As Long                                                     '最大生命值和最大法力值                                                     '
 Public HPnow, MPnow As Long                                                     '当前生命值和当前法力值
 Public level, needexp, nowexp As Long                                           '等级，升级所需经验，当前经验
+
+'测试
