@@ -1,0 +1,24 @@
+name RoleAttack|position 1|tick 100
+:Channel Default
+{tick 30|msg "attacking"
+        role1.png(1,1,0,0)
+}
+{tick 30
+        role2.png(1,1,0,0)
+}
+{tick 30
+        role3.png(1,1,0,0)
+}
+{tick 60
+        role4.png(1,1,0,0)
+}
+{tick 200
+        role5.png(1,1,0,0)
+}
+{msg "notattacking"|stay
+        role1.png(1,1,0,0)
+}
+:Channel Reserve
+{
+        role1.png(1,1,0,0)
+}
